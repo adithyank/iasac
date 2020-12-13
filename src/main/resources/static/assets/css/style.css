@@ -1556,9 +1556,54 @@ section {
   font-weight: bold;
 }
 
+/*added by adi*/
 .contact .header {
 
   background: #5fcf80;
   border-radius: 4px;
   color: #fff;
+}
+
+/*added by adi for the index page vertical tab*/
+
+.nav-pills-custom .nav-link {
+    color: #111;
+    background: #C5CAE9;
+    position: relative;
+    margin-bottom: 0.1rem!important;
+}
+
+.nav-pills-custom .nav-link.active {
+    color: #fff;
+    background: #5C6BC0;
+    margin-bottom: 0.1rem!important;
+}
+
+
+/* Add indicator arrow for the active tab */
+@media (min-width: 992px) {
+    .nav-pills-custom .nav-link::before {
+        content: '';
+        display: block;
+        border-top: 8px solid transparent;
+        border-left: 10px solid #fff;
+        border-bottom: 8px solid transparent;
+        position: absolute;
+        top: 50%;
+        right: -10px;
+        transform: translateY(-50%);
+        opacity: 0;
+    }
+}
+
+.nav-pills-custom .nav-link.active::before {
+    opacity: 1;
+}
+
+/*by adi*/
+.contact-general-contact {
+    opacity: 100%;
+    background: #9FA8DA;
+    color: #fff;
+
 }
