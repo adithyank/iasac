@@ -636,7 +636,7 @@ section {
 }
 
 .why-us .content .more-btn i {
-  font-size: 14px;
+  font-size: 14px;\
 }
 
 .why-us .content .more-btn:hover {
@@ -1554,4 +1554,11 @@ section {
 
 .boldfont {
   font-weight: bold;
+}
+
+.contact .header {
+
+  background: #5fcf80;
+  border-radius: 4px;
+  color: #fff;
 }
