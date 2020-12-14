@@ -154,7 +154,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu > ul > li {
   position: relative;
   white-space: nowrap;
-  padding: 10px 0 10px 24px;
+  padding: 20px 0 10px 24px;
 }
 
 .nav-menu a {
@@ -251,7 +251,8 @@ h1, h2, h3, h4, h5, h6 {
 
 /* Get Startet Button */
 .get-started-btn {
-  margin-left: 22px;
+  margin-left: 45px;
+  margin-top: 10px;
   background: #5fcf80;
   color: #fff;
   border-radius: 50px;
