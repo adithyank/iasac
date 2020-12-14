@@ -8,6 +8,6 @@ function loadDiv(id, url)
             $('#'+id).html(data);
         },
         dataType: "html",
-        async: true
+        async: false
     });
 }
